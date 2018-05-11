@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <!--Time-->
+    <TextView
+        android:id="@+id/txtShowTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="21dp"
+        android:text="Time = 100"
+        android:textSize="@dimen/h1"
+        tools:ignore="RtlCompat" />
+
+    <!--Score-->
+    <TextView
+        android:id="@+id/txtShowscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginTop="28dp"
+        android:text="Score = 0"
+        android:textSize="@dimen/h2"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+
+    <!--Question-->
+    <ImageView
+        android:id="@+id/imvQuestion"
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp" />
+
+    <!--choice1-->
+    <Button
+        android:id="@+id/btnChoice1"
+        android:background="@drawable/or"
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="136dp"
+        android:layout_marginStart="20dp"
+        tools:ignore="RtlCompat" />
+
+    <!--choice2-->
+    <Button
+        android:id="@+id/btnChoice2"
+        android:background="@drawable/or"
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="119dp"
+        android:layout_marginEnd="37dp"
+        tools:ignore="RtlCompat" />
+
+    <!--choice3-->
+    <Button
+        android:id="@+id/btnChoice3"
+        android:background="@drawable/or"
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="31dp"
+        android:layout_marginStart="38dp"
+        tools:ignore="RtlCompat" />
+
+    <!--choice4-->
+    <Button
+        android:id="@+id/btnChoice4"
+        android:background="@drawable/or"
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="19dp"
+        tools:ignore="RtlCompat" />
+
+
+    <ImageView
+        android:id="@+id/imvEat"
+        android:src="@drawable/eat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

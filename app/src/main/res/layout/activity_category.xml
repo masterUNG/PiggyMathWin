@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/scene1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity">
+
+    <ImageView
+        android:id="@+id/imvCat1"
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon"
+        android:src="@drawable/minute_02" />
+
+    <ImageView
+        android:id="@+id/imvCat5"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="200dp"
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon"
+        android:src="@drawable/minute_21" />
+
+    <ImageView
+        android:id="@+id/imvCat4"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon"
+        android:src="@drawable/minute_12" />
+
+    <ImageView
+        android:id="@+id/imvCat3"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon"
+        android:src="@drawable/minute_05" />
+
+    <ImageView
+        android:id="@+id/imvCat2"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon"
+        android:src="@drawable/minute_07" />
+
+</RelativeLayout>

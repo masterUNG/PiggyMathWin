@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Time">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/scene1"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="1.จงบอกเวลาในรูปภาพให้ถูกต้อง"
+            android:textSize="24sp"
+             />
+
+        <ImageView
+            android:id="@+id/imvAnimal"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/imagess_02"
+             />
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content" >
+
+        </LinearLayout>
+            <RadioGroup
+            android:id="@+id/radAnswer"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="254dp"
+            android:layout_height="135dp"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="289dp">
+
+            <RadioButton
+                android:id="@+id/radbtn1"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:background="@drawable/or"
+                android:text="แปดนาฬิกา สิบห้านาที"
+                android:textColor="@android:color/background_light" />
+
+            <RadioButton
+                android:id="@+id/radbtn2"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_weight="1"
+                android:background="@drawable/or"
+                android:text="เก้านาฬิกา สิบห้านาที" />
+
+            <RadioButton
+                android:id="@+id/radbtn3"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_weight="1"
+                android:background="@drawable/or"
+                android:text="แปดนาฬิกา ยี่สิบนาที" />
+
+            <RadioButton
+                android:id="@+id/radbtn4"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_weight="1"
+                android:background="@drawable/or"
+                android:text="เจ็ดนาฬิกา สิบห้านาที" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="300dp">
+
+            <Button
+
+                android:id="@+id/button2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="10dp"
+
+                android:background="@drawable/or"
+                android:onClick="ClickAnswer"
+
+
+                android:text="ยืนยันคำตอบ"
+
+                android:textColorLink="@android:color/holo_red_light" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
